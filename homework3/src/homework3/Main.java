@@ -10,7 +10,7 @@ import homework3.entities.concretes.Customer;
 public class Main {
 
 	public static void main(String[] args) {
-		Customer customer = new Customer(1, "Ali Ýhsan", "Akçay", "26200706474", new Date(1943, 9, 1));
+		Customer customer = new Customer(1, "Ali Ýhsan", "Akçay", "36780665866", new Date(1943, 9, 1));
 		
 		CustomerManager customerManager = new CustomerManager(new InMemoryCustomerDao(), new MernisServiceAdapter());
 		customerManager.add(customer);
