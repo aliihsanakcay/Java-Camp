@@ -13,7 +13,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		BaseCustomerManager customerManager = new neroCustomerManager(new MernisServiceAdapter());
-		customerManager.save(new Customer(1, "Ali Ýhsan", "Akçay", new Date(1993, 9, 1), "26200706474"));
+		customerManager.save(new Customer(1, "Ali Ýhsan", "Akçay", new Date(1993, 9, 1), "26211610071"));
 		
 		
 	}
